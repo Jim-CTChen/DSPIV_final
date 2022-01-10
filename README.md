@@ -2,4 +2,6 @@
 
 ## Smith Waterman implementation
 
-### 
+### Simulation
+RTL
+> ncverilog tb.v sw.v +define+tb1 +define+FSDB +access+r
