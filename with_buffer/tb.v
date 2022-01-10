@@ -22,14 +22,14 @@ reg flag;
 
 initial begin
    `ifdef tb1
-     `define PATS "./dat/s1.dat"
-     `define PATT "./dat/t1.dat"
-     `define EXP "./dat/golden1.dat"
+     `define PATS "../dat/s1.dat"
+     `define PATT "../dat/t1.dat"
+     `define EXP "../dat/golden1.dat"
    `endif
    `ifdef tb2
-     `define PATS "./dat/s2.dat"
-     `define PATT "./dat/t2.dat"
-     `define EXP "./dat/golden2.dat"
+     `define PATS "../dat/s2.dat"
+     `define PATT "../dat/t2.dat"
+     `define EXP "../dat/golden2.dat"
    `endif
    `ifdef SDFSYN
      $sdf_annotate("sw_syn.sdf", u_sw);
